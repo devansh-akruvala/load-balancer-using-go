@@ -50,6 +50,12 @@ func newLoadBalancer(port string, servers []Server) *LoadBalancer {
 	}
 }
 
+func (lb *LoadBalancer) getNextAvailableServer() Server {
+
+}
+
+func (lb *LoadBalancer) serve(resW http.ResponseWriter, reqW *http.Request)
+
 func main() {
 
 }
